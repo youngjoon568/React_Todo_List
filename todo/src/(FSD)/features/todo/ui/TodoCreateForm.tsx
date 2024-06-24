@@ -1,11 +1,11 @@
 import React, { useContext, useEffect, useReducer } from "react";
-import FormInputShared from "../../shareds/ui/FormInputShared";
 import styled from "styled-components";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { TodoListStore } from "../../shareds/stores/TodoListStore";
-import { TodoContextType } from "../../shareds/types/TodoContext.type";
+import { TodoContextType } from "../../../shareds/types/TodoContext.type";
+import { TodoListStore } from "../../../shareds/stores/TodoListStore";
+import FormInputShared from "../../../shareds/ui/FormInputShared";
 
 const TodoCreateFormStyle = styled.form`
 width: 100%;

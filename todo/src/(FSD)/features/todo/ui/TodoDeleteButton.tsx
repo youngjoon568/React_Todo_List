@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import IconShared from "../../shareds/ui/IconShared";
-import { TodoType } from "../../shareds/types/Todo.type";
-import { TodoListStore } from "../../shareds/stores/TodoListStore";
-import { TodoContextType } from "../../shareds/types/TodoContext.type";
+import { TodoContextType } from "../../../shareds/types/TodoContext.type";
+import { TodoListStore } from "../../../shareds/stores/TodoListStore";
+import { TodoType } from "../../../shareds/types/Todo.type";
+import IconShared from "../../../shareds/ui/IconShared";
 
 const TodoDeleteButtonStyle = styled.button`
 cursor: pointer;

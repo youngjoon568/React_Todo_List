@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { TodoListStore } from "../../../shareds/stores/TodoListStore";
 import React, { useContext } from "react";
 import { TodoContextType } from "../../../shareds/types/TodoContext.type";
-import TodoItemShared from "../../../shareds/ui/TodoItemShared";
+import TodoItemShared from "../../../widgets/todo/ui/TodoItem";
 
 const TodoListStyle = styled.div`
 flex-grow: 2;

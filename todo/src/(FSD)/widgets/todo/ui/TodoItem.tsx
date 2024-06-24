@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { TodoType } from "../types/Todo.type";
+import { TodoType } from "../../../shareds/types/Todo.type";
 import styled from "styled-components";
-import TodoDeleteButton from "../../features/ui/TodoDeleteButton";
-import TodoDoneToggleButton from "../../features/ui/TodoDoneToggleButton";
+import TodoDoneToggleButton from "../../../features/todo/ui/TodoDoneToggleButton";
+import TodoDeleteButton from "../../../features/todo/ui/TodoDeleteButton";
 
 const TodoItemStyle = styled.div`
 width: 100%;

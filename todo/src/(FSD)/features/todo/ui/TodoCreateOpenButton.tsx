@@ -1,6 +1,6 @@
 import React from "react";
-import IconShared from "../../shareds/ui/IconShared";
 import styled from "styled-components";
+import IconShared from "../../../shareds/ui/IconShared";
 
 const TodoCreateOpenButtonStyle = styled.button`
 display: flex;

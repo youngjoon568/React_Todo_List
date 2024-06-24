@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import styled from "styled-components";
-import { TodoListStore } from "../../shareds/stores/TodoListStore";
-import { TodoContextType } from "../../shareds/types/TodoContext.type";
-import IconShared from "../../shareds/ui/IconShared";
+import IconShared from "../../../shareds/ui/IconShared";
+import { TodoListStore } from "../../../shareds/stores/TodoListStore";
+import { TodoContextType } from "../../../shareds/types/TodoContext.type";
 
 const TodoDoneToggleButtonStyle = styled.button`
 padding: 5px;
