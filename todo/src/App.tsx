@@ -12,7 +12,7 @@ const App = () => {
             <AppLayout>
                 <TodoLayout>
                     <TodoHeader />
-                    <TodoList />
+                    <TodoList /> 
                     <TodoCreateSection />
                 </TodoLayout>
             </AppLayout>
